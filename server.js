@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import express from 'express';
 import { WebSocketServer } from 'ws';
 import crypto from 'crypto';
@@ -117,4 +115,4 @@ wss.on('connection', (ws, req) => {
     });
   });
 });
->>>>>>> 2e7186d (secure chat application)
+
